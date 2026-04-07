@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+spacy
+dateparser
+python-multipart
+reportlab
+bcrypt
+python-jose[cryptography]
+pydantic
+pillow
+pytesseract
