@@ -1,56 +1,39 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Python
 
-# C extensions
-*.so
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
 
-# Distribution / packaging
-# .Python
-# build/
-# develop-eggs/
-# dist/
-# downloads/
-# eggs/
-# .eggs/
-# lib/
-# lib64/
-# parts/
-# sdist/
-# var/
-# wheels/
-# pip-wheel-metadata/
-# share/python-wheels/
-# *.egg-info/
-# .installed.cfg
-# *.egg
-# MANIFEST
+# Virtual Environments
 
-# Environments
-vh_venv/
+venv/
 backend/venv/
 .env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
 
-# Project specific
+# Database (IMPORTANT)
+
+*.db
+expenses.db
 backend/voicekhata.db
-backend/test.db
+
+# Logs
+
 *.log
 
-# Node.js
+# Node.js (Frontend)
+
 node_modules/
 frontend/node_modules/
 dist/
 frontend/dist/
-.npm
-*.tgz
 
-# OS
+# OS files
+
 .DS_Store
 Thumbs.db
+
+# IDE
+
+.vscode/
+.idea/
